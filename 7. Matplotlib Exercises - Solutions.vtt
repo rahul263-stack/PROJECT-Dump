@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00:05.010 --> 00:00:10.150
+Hello everyone and welcome to the map plus live exercises solutions lecture in this lecture.
+
+00:00:10.170 --> 00:00:13.950
+We're going to go over the solutions for the map plotless exercise.
+
+00:00:14.040 --> 00:00:16.620
+Let's go to an Jump's a notebook to get started.
+
+00:00:16.620 --> 00:00:20.640
+All right here I am at the notebook for the most part lip exercises.
+
+00:00:20.820 --> 00:00:22.840
+Let's go ahead and jump right in and get started.
+
+00:00:22.840 --> 00:00:25.680
+We're going to go out and run that first cell to get the data.
+
+00:00:26.100 --> 00:00:38.130
+And let's go at an import map plot lived high plot as Piazzi and set map plotted inline.
+
+00:00:38.130 --> 00:00:42.220
+Now there's one more question which is what Kamandi use if you are isn't it Jupiter notebook.
+
+00:00:42.390 --> 00:00:47.810
+And as a reminder that would be Piel teeth that show at the end of all your plotting commands.
+
+00:00:47.850 --> 00:00:49.960
+Let's go to sort of exercise one.
+
+00:00:50.150 --> 00:00:54.580
+Want to create a figure object called fig using pilt that figure.
+
+00:00:54.690 --> 00:00:55.200
+All right.
+
+00:00:55.200 --> 00:01:01.370
+So this is just the object oriented method of using Map plot lib or we say fig is sequel to peel T-Dog
+
+00:01:01.410 --> 00:01:02.500
+figure.
+
+00:01:02.910 --> 00:01:07.940
+And then we want to use add underscore axes to add a set of axes to this figure.
+
+00:01:08.460 --> 00:01:16.430
+And I'm going to go in and say x is equal to Fig dot add underscore axes.
+
+00:01:16.510 --> 00:01:20.560
+And we actually get the position we wanted that 0 0 1 1.
+
+00:01:20.760 --> 00:01:27.400
+And then finally I wanted to plot x come a y on that and run this.
+
+00:01:27.450 --> 00:01:32.610
+OK it looks like we have a good match here and we want the labels and titles to match below.
+
+00:01:32.610 --> 00:01:39.690
+So if we go ahead and set that in we want to say set X label
+
+00:01:42.980 --> 00:01:52.920
+to be X and then x x x set y label to be Y.
+
+00:01:52.950 --> 00:01:59.140
+And we also want to set the title and it should have just been a simple title.
+
+00:01:59.220 --> 00:01:59.790
+All right.
+
+00:02:00.210 --> 00:02:01.550
+So what do we do here.
+
+00:02:01.560 --> 00:02:07.710
+We went ahead and created a figure object added a set of axes a figure object plotted on that figure
+
+00:02:07.710 --> 00:02:11.450
+object and then set the X label the y label and the title.
+
+00:02:11.490 --> 00:02:16.320
+Let's go ahead and move on to exercise 2 which is a very similar exercise.
+
+00:02:16.320 --> 00:02:22.340
+We're going to see a fig circle to peel t that figure to create the figure object.
+
+00:02:22.350 --> 00:02:31.320
+And then we want to put two axes on it x 1 and x to go and say x 1 and x 2 and I'm going to say fig
+
+00:02:31.320 --> 00:02:33.970
+thought add underscore axes.
+
+00:02:34.020 --> 00:02:36.700
+First one is located at 0 0 1 1.
+
+00:02:36.720 --> 00:02:38.580
+That's the larger one.
+
+00:02:38.580 --> 00:02:50.400
+And then the second one is located at zero point two point five point two point two.
+
+00:02:50.700 --> 00:02:55.060
+It's going to run that and it looks like we get a same result here.
+
+00:02:55.130 --> 00:02:55.910
+Great.
+
+00:02:56.100 --> 00:03:02.680
+Now continuing to exercise we wanted to do is plot both x and y on both axes here.
+
+00:03:03.030 --> 00:03:06.100
+Let's go ahead and add that into the cell.
+
+00:03:06.150 --> 00:03:14.810
+So I will say x 1 plot x y and x to plot x y.
+
+00:03:15.450 --> 00:03:18.840
+And here we have the same plot right here.
+
+00:03:18.850 --> 00:03:20.280
+You wanted that to be red.
+
+00:03:20.310 --> 00:03:24.000
+You could've just added in the color arguments red
+
+00:03:27.710 --> 00:03:33.870
+you just passed a string and now it will be red to match this lower plot and then if you wanted to you
+
+00:03:33.870 --> 00:03:37.380
+could have also added in the X labels and the y labels.
+
+00:03:38.070 --> 00:03:43.650
+It's going to move on to exercise 3 which was create the plot below by adding to access to a figure
+
+00:03:43.650 --> 00:03:47.130
+object at these specific canvas points.
+
+00:03:47.130 --> 00:03:47.760
+All right.
+
+00:03:47.910 --> 00:03:51.270
+So not as much guidance though on exercise 3.
+
+00:03:51.300 --> 00:03:54.050
+First thing I want to do is create a figure object.
+
+00:03:54.060 --> 00:04:01.710
+I'm going to say fig is equal to peel T-Dog figure and then the next thing I want to do is begin to
+
+00:04:01.710 --> 00:04:12.150
+add the sets of axes and when to say x is equal to Fig dot add axes and we'll put them at the same locations
+
+00:04:12.150 --> 00:04:13.340
+that were requested.
+
+00:04:13.690 --> 00:04:23.790
+I will say x 2 is equal to Fig dot and underscore axes or we'll set these up point to point five point
+
+00:04:23.790 --> 00:04:26.850
+four point four.
+
+00:04:26.850 --> 00:04:31.530
+All right Rennie that looks like we get the same result and then coming up next we wanted to use the
+
+00:04:31.590 --> 00:04:35.520
+x y and z arrays to recreate this plot below.
+
+00:04:35.910 --> 00:04:43.650
+Let's go ahead and check out that plot below to comment these out and bring this a little closer so
+
+00:04:43.650 --> 00:04:44.440
+we can see it.
+
+00:04:44.580 --> 00:04:46.320
+Zoom out a little bit.
+
+00:04:47.040 --> 00:04:47.710
+OK.
+
+00:04:48.120 --> 00:04:54.310
+So it looks like we have a couple of things going on here in the outer Plaut we have X versus Z.
+
+00:04:54.330 --> 00:04:56.180
+Let's go in and add that in.
+
+00:04:56.190 --> 00:05:04.260
+So in the large plot which is X in our case it's going to plot x versus Z and I'm actually going to
+
+00:05:04.260 --> 00:05:05.400
+set the labels for that.
+
+00:05:05.400 --> 00:05:21.080
+So the X label wups set X label set that to X and that X are set y label set to Z.
+
+00:05:21.090 --> 00:05:29.100
+So this is the large plot and now it's going to talk about the insert plot.
+
+00:05:29.100 --> 00:05:34.360
+So if we take a look at the insert plot has going on it's going to be X by Y.
+
+00:05:34.380 --> 00:05:37.330
+Over here it looks like the title is zoom.
+
+00:05:37.470 --> 00:05:51.660
+So I'm going to go ahead and say X plot x y and then I'm going to set the title to be zoom in I'm also
+
+00:05:51.660 --> 00:06:01.320
+going to go ahead and set those labels to be X and then or the Y to be y.
+
+00:06:01.320 --> 00:06:05.310
+You know we're actually not quite finished yet let's go and run this and see what difference we get
+
+00:06:05.330 --> 00:06:05.660
+.
+
+00:06:05.970 --> 00:06:10.110
+So note right now I made a mistake that should have been on the insert.
+
+00:06:10.110 --> 00:06:13.450
+So this should have been x 2 for all of these.
+
+00:06:13.450 --> 00:06:15.230
+Now let's go ahead and run this.
+
+00:06:16.140 --> 00:06:19.050
+And this is looking OK but there's still a difference here.
+
+00:06:19.050 --> 00:06:26.620
+Notice on the zoom the x and y limits X goes from 20 to 22 and y goes from 30 to 50.
+
+00:06:26.640 --> 00:06:28.440
+Here we're just using the default limits.
+
+00:06:28.440 --> 00:06:31.440
+Let's go in and change those on the insert.
+
+00:06:31.620 --> 00:06:34.520
+That's going to be x 2 dot
+
+00:06:37.080 --> 00:06:42.670
+set X slim and we want to go from 20 to 22.
+
+00:06:42.670 --> 00:06:45.820
+Let's go and add that in 20 to 22.
+
+00:06:45.930 --> 00:06:53.910
+And I'm also going to set the while him and if we scroll back down we can see the whilom went from 30
+
+00:06:53.910 --> 00:06:55.500
+to 50.
+
+00:06:55.650 --> 00:06:58.480
+So we'll say 30 comma 50 in the slowest.
+
+00:06:58.590 --> 00:06:59.680
+Run that.
+
+00:06:59.730 --> 00:07:05.210
+And now we can see that we're matching completely on both the insert and the outer plot.
+
+00:07:05.280 --> 00:07:08.130
+All right now we're on exercise four.
+
+00:07:08.280 --> 00:07:13.580
+Let's go ahead and use PELTOLA subplots to recreate this plot below.
+
+00:07:13.950 --> 00:07:22.870
+I'm going to say fig come axes is equal to peel t thought subplots and I want one rule by two columns
+
+00:07:22.870 --> 00:07:22.890
+.
+
+00:07:22.890 --> 00:07:28.080
+Let's go in and run that and looks like we get that output correctly.
+
+00:07:28.080 --> 00:07:33.780
+Now we want to plot x and y and x versus Z on the axes and I want you to play around the line with and
+
+00:07:33.780 --> 00:07:34.690
+style.
+
+00:07:34.710 --> 00:07:37.820
+Let's see if we can match these up correctly.
+
+00:07:37.860 --> 00:07:43.930
+I'm going to go ahead and plot over here.
+
+00:07:44.070 --> 00:07:54.600
+Let me empty that out and let's go ahead and say axes 0 members using subplots.
+
+00:07:54.600 --> 00:08:00.270
+Now so we're going to be able to iterate or call this sequence of the array of axes.
+
+00:08:00.510 --> 00:08:06.840
+So I'm saying axes zero plots and it looks like I'm going to go ahead and mess around with this will
+
+00:08:06.900 --> 00:08:17.010
+say X Y and on axes one will go in and plot x z.
+
+00:08:17.730 --> 00:08:24.000
+You know it's going to set these colors so we'll see color for the second one to be red and it looks
+
+00:08:24.000 --> 00:08:27.080
+like the line with a little ticker.
+
+00:08:27.660 --> 00:08:36.870
+And then this one the first one looks like let's go in and set the colors to be blue as a string.
+
+00:08:36.870 --> 00:08:42.010
+And it also looks like the line style s is a dashed line.
+
+00:08:42.080 --> 00:08:43.710
+Go and add that in.
+
+00:08:43.740 --> 00:08:50.130
+It also looks like it's a little thicker sole but in LW equal three it's going to run this if we get
+
+00:08:50.490 --> 00:08:52.490
+everything looking OK.
+
+00:08:52.500 --> 00:08:52.860
+All right.
+
+00:08:52.860 --> 00:08:53.400
+Not bad.
+
+00:08:53.410 --> 00:08:54.820
+Looks like we're getting a match.
+
+00:08:55.080 --> 00:08:59.970
+And now we wanted to see if we could resize the plot by adding in this fix size arguments.
+
+00:09:00.300 --> 00:09:02.500
+Let's go in and check that out.
+
+00:09:02.520 --> 00:09:09.600
+Remember we can just add size arguments into the subplots call so we can say fig size is equal to and
+
+00:09:09.600 --> 00:09:12.220
+looks like we want wide and short.
+
+00:09:12.240 --> 00:09:17.550
+So on the first number to be larger so some wider numbers which just fell in the second number to be
+
+00:09:17.550 --> 00:09:19.990
+smaller so we're going say 12 to.
+
+00:09:20.260 --> 00:09:25.720
+And if we run that looks like we get a match to the second plot over here.
+
+00:09:26.040 --> 00:09:28.250
+And there are also messed around the styles a little bit.
+
+00:09:28.250 --> 00:09:31.650
+So switch it up all of us would go in and do that ourselves.
+
+00:09:31.650 --> 00:09:33.360
+We just say something like.
+
+00:09:33.660 --> 00:09:37.650
+LS over here is equal to dash lines.
+
+00:09:37.680 --> 00:09:39.960
+Now we switched it and matched it.
+
+00:09:40.080 --> 00:09:40.640
+All right.
+
+00:09:40.800 --> 00:09:46.650
+That's it for the exercises for Matt plot lib hopefully really drilled in as far as the syntax for using
+
+00:09:46.680 --> 00:09:48.640
+Object Oriented map plot live.
+
+00:09:48.840 --> 00:09:55.160
+All you have to do is say call the figure axes of the figure and then plot on those axes or if you're
+
+00:09:55.170 --> 00:10:02.250
+using subplots as in the last problem call fig come axes to peel to those subplots and then iterate
+
+00:10:02.250 --> 00:10:08.560
+through those axes or call using the array of axes to plot each particular subplot.
+
+00:10:08.860 --> 00:10:10.220
+That's really all there is to it.
+
+00:10:10.350 --> 00:10:15.060
+Go ahead and review the solutions book in case any of this was unclear or feel free to post the question
+
+00:10:15.060 --> 00:10:16.980
+to the Q&A forums.
+
+00:10:16.980 --> 00:10:19.020
+Thanks everyone and I'll see you at the next lecture
