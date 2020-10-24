@@ -1,2 +1,2 @@
 # quarantine
-This repository is what i did during my quarentine days 
+This repository consists of assignments and project that i did during my quarentine days 
