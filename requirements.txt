@@ -4,7 +4,14 @@ tensorflow_datasets
 tensorflow_hub
 matplotlib
 sklearn
-numpy
-requests
+numpy~=1.18.1
+requests~=2.23.0
 PILLOW
 opencv-python
+
+pandas~=1.0.1
+ipython~=7.18.1
+flask~=1.1.2
+werkzeug~=1.0.1
+plotly~=4.5.4
+pytube~=10.5.3
